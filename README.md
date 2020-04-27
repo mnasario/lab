@@ -2,4 +2,4 @@
 Project to test frameworks
 
 # Testing spring-data-sqlfile framework
-# Conflict 03
+# Conflict 02
