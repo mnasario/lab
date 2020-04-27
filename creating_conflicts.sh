@@ -5,7 +5,7 @@ creatingNewConflict()
     git checkout $1
     git pull
     sleep 1
-    echo "New line " >> README.md
+    echo "New line to $1" >> README.md
     git commit -am "Creating new conflict"
     git push
 }
