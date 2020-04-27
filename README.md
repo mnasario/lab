@@ -5,3 +5,5 @@ Project to test frameworks
 # Conflict 03
 New line to devNew line to test-with-conflict 
 
+New line to dev 
+
