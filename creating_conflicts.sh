@@ -6,6 +6,7 @@ creatingNewConflict()
     git pull
     sleep 1
     echo "New line to $1" >> README.md
+    echo "\n" >> README.md
     git commit -am "Creating new conflict"
     git push
 }
@@ -15,3 +16,5 @@ creatingNewConflict dev
 
 echo "Adding a new conflict in TEST CONFLICT branch"
 creatingNewConflict test-with-conflict
+
+git checkout dev
