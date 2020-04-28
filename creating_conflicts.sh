@@ -4,7 +4,7 @@ creatingNewConflict()
 {
     git checkout $1
     git pull
-    echo "[$(date +%F)] - New value \n" >> README.md
+    echo "[$(date)] - New value \n" >> README.md
     git commit -am "Creating new conflict"
     git push
 }
