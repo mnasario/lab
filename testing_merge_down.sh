@@ -10,7 +10,9 @@ git push
 git checkout test
 git checkout -b merge-branch
 git merge --ff-only --no-commit dev
-git push
+#git commit -am "Testing merge down"
+
+#git branch -D merge-branch
 
 #git commit -am "Testing merge down"
 
