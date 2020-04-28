@@ -14,4 +14,3 @@ git commit -am "Testing merge down"
 
 git checkout test
 git merge --no-ff merge-branch
-git push
