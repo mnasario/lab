@@ -7,3 +7,5 @@ New line to devNew line to test-with-conflict
 
 New line to dev 
 
+New line to test-with-conflict 
+
