@@ -15,6 +15,6 @@ creatingNewConflict dev
 sleep 1
 
 echo "Adding a new conflict in TEST CONFLICT branch"
-creatingNewConflict test-with-conflict
+creatingNewConflict conflict
 
 git checkout dev
