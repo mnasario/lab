@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
+git fetch
 git checkout merging-dev-into-conflict
-git fetch origin
 git merge --ff conflict
