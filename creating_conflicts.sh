@@ -18,4 +18,3 @@ echo "Adding a new conflict in TEST CONFLICT branch"
 creatingNewConflict conflict
 
 git checkout dev
-
